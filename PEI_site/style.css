@@ -1,0 +1,190 @@
+/*grid from Traversy Media*/
+
+
+body {
+    display: flex;
+    background-color: rgb(199, 167, 143)
+} 
+
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.main_head{
+    display: flex;
+    font-family: 'Spectral', serif;
+    position: absolute;
+    top: 24rem;
+    left: 4rem;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: 610;
+    text-indent: 0em ;
+    transform: translate(-50%, -50%);
+}
+
+/* container with establishing shot*/
+.container {
+    position:relative;
+    color: white;
+}
+
+/*try hover?*/
+/*.demo:hover {
+    color:rgb(169, 45, 45);
+}*/
+
+/* Text under establishing shot*/
+.info p{
+    font-family: 'Spectral', serif;
+    max-width: 1200px;
+    margin-top: 2rem;
+    margin-left: 6.6rem;
+    font-size:  1rem;
+    font-style:normal;
+    position: static;
+    text-align: justify;
+  }
+
+  
+  .heading_2 {
+    display: flex;
+    font-family: 'Spectral', serif;
+    position: static;
+    margin-top: 10rem;
+    margin-left: 4rem;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: 200;
+}
+
+  .greenwich p{
+    font-family: 'Spectral', serif;
+    max-width: 1200px;
+    margin-top: 2rem;
+    margin-left: 6.6rem;
+    font-size: 1rem;
+    font-style:normal;
+    position: static;
+    text-align: justify;
+    top: 80em;
+  }
+
+  .heading_3 {
+    display: flex;
+    font-family: 'Spectral', serif;
+    position: static;
+    margin-top: 10rem;
+    margin-left: 4rem;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: 200;
+}
+
+  .ecosystem p{
+    font-family: 'Spectral', serif;
+    max-width: 1200px;
+    margin-top: 2rem;
+    margin-left: 2.2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-style:normal;
+    position: static;
+    text-align: justify;
+    top: 80em;
+  }
+
+.picture_group3{
+    margin-top:  2rem;
+    max-width: auto;
+    text-align: center;
+    }
+
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+    /* 2 column grid... add-carousel... align text*/
+    .slider_picture_group4{
+        display: grid;
+        grid-template-columns: 2.4fr 4fr;
+        grid-gap: 1rem;
+        margin: 2rem 4rem;
+        max-width: auto;
+        text-align: center;
+        }
+
+       /* .preservation_pics{
+      
+            margin: 2rem 4rem;
+            max-width: auto;
+            text-align: center;
+            }*/
+
+
+    
+
+    .heading_4 {
+        display: flex;
+        font-family: 'Spectral', serif;
+        position: static;
+        margin-top: 10rem;
+        margin-left: 4rem;
+        left: 4%;
+        font-size: 2.8em;
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    .slider_picture_group5{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 1rem;
+        margin: 2rem 4rem;
+        max-width: auto;
+        text-align: center;
+        }
+
+    .preservation p {
+        font-family: 'Spectral', serif;
+        max-width: 1200px;
+        margin-top: 2rem;
+        margin-left: 6.6rem;
+        font-size: 1rem;
+        font-style:normal;
+        position: static;
+        text-align: justify;
+        top: 80em;
+    }
+
+
+    /* */
+    @media (max-width: 500px) {
+        .container1 {
+            display: block;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .picture_group3 {
+            display: block;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .slider_picture_group4 {
+            display: block;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .picture_group5 {
+            display: block;
+        }
+
+    }
