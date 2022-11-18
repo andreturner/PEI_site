@@ -5,11 +5,11 @@ window.onload = function(){
   // target image to be replaced using its class
   //Land Use pics//
   $('.cavendish-image').click(function(){
-    $(this).attr('src', 'pictures/3_aerial/aerial_pics/2010_cavendish.jpeg');
+    $(this).attr('src', 'PEI_site/pictures/3_aerial/aerial_pics/2010_cavendish.jpeg');
   }); 
 
   $('.greenwich-image').click(function(){
-    $(this).attr('src', 'pictures/3_aerial/aerial_pics/2010_greenwich.jpeg');
+    $(this).attr('src', 'PEI_site/pictures/3_aerial/aerial_pics/2010_greenwich.jpeg');
   }); 
 
 //Ecosystem pics//
